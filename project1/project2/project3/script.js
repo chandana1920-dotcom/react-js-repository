@@ -5,6 +5,6 @@ function createCounter(){
         document.getElementById("count").innerText = count;
 
     };
-    const counter = createCounter();
-    document.getElement
 }
+    const counter = createCounter();
+    document.getElementById("btn").addEventListener("click", counter); 
